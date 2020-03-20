@@ -13112,17 +13112,22 @@ python -m stata_kernel.install</code></pre>
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>from <strong>future</strong> import print_function, division
-import numpy as np
-import matplotlib as mpl
-import matplotlib.pyplot as plt
-%matplotlib inline</p>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">print_function</span><span class="p">,</span> <span class="n">division</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib</span> <span class="k">as</span> <span class="nn">mpl</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="o">%</span><span class="k">matplotlib</span> inline
+</pre></div>
 
+    </div>
 </div>
 </div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -13264,7 +13269,7 @@ import matplotlib.pyplot as plt
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>jupyter nbconvert --to html *.ipynb
@@ -13286,19 +13291,19 @@ import matplotlib.pyplot as plt
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>[NbConvertApp] Converting notebook 20200320-hello-notebook.ipynb to html
-[NbConvertApp] Writing 2373259 bytes to 20200320-hello-notebook.html
+[NbConvertApp] Writing 2373263 bytes to 20200320-hello-notebook.html
 -e <span class="ansi-green-fg">Deploying updates to GitHub...</span>
-[master 16c5776] rebuilding site
- 4 files changed, 186 insertions(+), 133 deletions(-)
+[master 324e125] rebuilding site
+ 2 files changed, 28 insertions(+), 28 deletions(-)
 Warning: Permanently added &#39;github.com,192.30.253.113&#39; (RSA) to the list of known hosts.
-Counting objects: 6, done.
+Counting objects: 4, done.
 Delta compression using up to 8 threads.
-Compressing objects: 100% (6/6), done.
-Writing objects: 100% (6/6), 825.15 KiB | 4.85 MiB/s, done.
-Total 6 (delta 3), reused 0 (delta 0)
-remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 958 bytes | 958.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
 To github.com:chengjun/notebook.git
-   c835e2a..16c5776  master -&gt; master
+   16c5776..324e125  master -&gt; master
 </pre>
 </div>
 </div>
@@ -13366,6 +13371,7 @@ To github.com:chengjun/notebook.git
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>deploy.sh文件内容如下</p>
 <div class="highlight"><pre><span></span><span class="ch">#!/bin/bash</span>
 
 <span class="nb">echo</span> -e <span class="s2">&quot;\033[0;32mDeploying updates to GitHub...\033[0m&quot;</span>
