@@ -13266,7 +13266,7 @@ import matplotlib.pyplot as plt
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>jupyter nbconvert --to html *.ipynb
@@ -13287,7 +13287,7 @@ import matplotlib.pyplot as plt
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>[NbConvertApp] Converting notebook 20200320-hello-notebook.ipynb to html
-[NbConvertApp] Writing 1265506 bytes to 20200320-hello-notebook.html
+[NbConvertApp] Writing 1267515 bytes to 20200320-hello-notebook.html
 </pre>
 </div>
 </div>
@@ -13336,13 +13336,42 @@ git push origin master
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>sh deploy.sh
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>-e <span class="ansi-green-fg">Deploying updates to GitHub...</span>
+[master 070ce87] rebuilding site
+ 2 files changed, 96 insertions(+), 9 deletions(-)
+Warning: Permanently added &#39;github.com,192.30.253.113&#39; (RSA) to the list of known hosts.
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.26 KiB | 75.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:chengjun/notebook.git
+   0e8f172..070ce87  master -&gt; master
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
