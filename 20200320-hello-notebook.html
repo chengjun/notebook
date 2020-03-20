@@ -13245,8 +13245,7 @@ python -m stata_kernel.install</code></pre>
 <p><a href="https://nbviewer.jupyter.org/github/chengjun/notebook/tree/master/">https://nbviewer.jupyter.org/github/chengjun/notebook/tree/master/</a></p>
 <p>方法2. 批量生成html文件</p>
 <p><a href="https://chengjunwang.com/notebook/20200320-hello-notebook.html">https://chengjunwang.com/notebook/20200320-hello-notebook.html</a></p>
-<p>我决定使用方法1 nbviewer的方式，需要的时候再批量生成html文件。</p>
-<p>上传到github还是使用github desktop的傻瓜方式，简单明了！</p>
+<p>我决定使用方法2批量生成html文件，使用shell命令上传到github。</p>
 
 </div>
 </div>
@@ -13269,7 +13268,7 @@ python -m stata_kernel.install</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>jupyter nbconvert --to html *.ipynb
@@ -13291,19 +13290,19 @@ python -m stata_kernel.install</code></pre>
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>[NbConvertApp] Converting notebook 20200320-hello-notebook.ipynb to html
-[NbConvertApp] Writing 2373263 bytes to 20200320-hello-notebook.html
+[NbConvertApp] Writing 2373816 bytes to 20200320-hello-notebook.html
 -e <span class="ansi-green-fg">Deploying updates to GitHub...</span>
-[master 324e125] rebuilding site
- 2 files changed, 28 insertions(+), 28 deletions(-)
+[master 1fc84e5] rebuilding site
+ 3 files changed, 65 insertions(+), 51 deletions(-)
 Warning: Permanently added &#39;github.com,192.30.253.113&#39; (RSA) to the list of known hosts.
-Counting objects: 4, done.
+Counting objects: 5, done.
 Delta compression using up to 8 threads.
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 958 bytes | 958.00 KiB/s, done.
-Total 4 (delta 3), reused 0 (delta 0)
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.31 KiB | 1.31 MiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
 remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
 To github.com:chengjun/notebook.git
-   16c5776..324e125  master -&gt; master
+   324e125..1fc84e5  master -&gt; master
 </pre>
 </div>
 </div>
