@@ -2,12 +2,12 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-git config 'lfs.https://github.com/chengjun/notebook.git/info/lfs.locksverify' false
-
-git pull first
-git pull origin master
-ssh-add ~/.ssh/id_rsa
-git remote set-url origin git@github.com:chengjun/notebook.git
+# git config 'lfs.https://github.com/chengjun/notebook.git/info/lfs.locksverify' false
+#
+# git pull first
+# git pull origin master
+# ssh-add ~/.ssh/id_rsa
+# git remote set-url origin git@github.com:chengjun/notebook.git
 
 # Add changes to git.
 git add -A
