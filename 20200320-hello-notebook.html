@@ -13334,12 +13334,22 @@ git push origin master
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="&#36816;&#34892;shell-&#21629;&#20196;">&#36816;&#34892;shell &#21629;&#20196;<a class="anchor-link" href="#&#36816;&#34892;shell-&#21629;&#20196;">&#182;</a></h3>
+<pre><code>!sh deploy.sh</code></pre>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>sh deploy.sh
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>jupyter nbconvert --to html *.ipynb
+<span class="o">!</span>sh deploy.sh
 </pre></div>
 
     </div>
@@ -13356,18 +13366,20 @@ git push origin master
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>-e <span class="ansi-green-fg">Deploying updates to GitHub...</span>
-[master 070ce87] rebuilding site
- 2 files changed, 96 insertions(+), 9 deletions(-)
+<pre>[NbConvertApp] Converting notebook 20200320-hello-notebook.ipynb to html
+[NbConvertApp] Writing 1268371 bytes to 20200320-hello-notebook.html
+-e <span class="ansi-green-fg">Deploying updates to GitHub...</span>
+[master c6e1e1d] rebuilding site
+ 1 file changed, 33 insertions(+), 4 deletions(-)
 Warning: Permanently added &#39;github.com,192.30.253.113&#39; (RSA) to the list of known hosts.
-Counting objects: 4, done.
+Counting objects: 3, done.
 Delta compression using up to 8 threads.
-Compressing objects: 100% (4/4), done.
-Writing objects: 100% (4/4), 1.26 KiB | 75.00 KiB/s, done.
-Total 4 (delta 2), reused 0 (delta 0)
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 794 bytes | 794.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
 remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To github.com:chengjun/notebook.git
-   0e8f172..070ce87  master -&gt; master
+   7631eea..c6e1e1d  master -&gt; master
 </pre>
 </div>
 </div>
