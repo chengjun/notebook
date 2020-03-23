@@ -8,7 +8,7 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # git pull origin master
 # ssh-add ~/.ssh/id_rsa
 # git remote set-url origin git@github.com:chengjun/notebook.git
-
+# 
 # Add changes to git.
 git add -A
 
