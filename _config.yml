@@ -40,13 +40,13 @@ collapse_inactive_sections: true  # Whether to collapse the sub-sections within 
 textbook_logo: images/logo/logo.png               # A logo to be displayed at the top of your textbook sidebar. Should be square
 textbook_logo_link: https://chengjun.github.io/notebook                    # A link for the logo.
 sidebar_footer_text: Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
-number_toc_chapters: true         # Whether to add numbers to chapterse in your Table of Contents. If true, you can control this at the Chapter level in _data/toc.yml
+number_toc_chapters: false         # Whether to add numbers to chapterse in your Table of Contents. If true, you can control this at the Chapter level in _data/toc.yml
 
 # Search settings
 search_max_words_in_content: 100   # In the search function, use at most this many words (too many words will make search slow)
 
 # Controlling page information
-page_titles: infer                      # Either `None`, `infer`, or `toc`
+page_titles: toc                      # Either `None`, `infer`, or `toc`
 page_authors: None                     # Either `None` or `infer`
 filename_title_split_character: _     # If inferring titles based on filename, splt on this character.
 
@@ -75,7 +75,7 @@ binderhub_interact_text: Interact              # The text that interact buttons 
 
 # Thebelab settings
 use_thebelab_button: true                # If 'true', display a button to allow in-page running code cells with Thebelab
-thebelab_button_text: Thebelab                 # The text to display inside the Thebelab initialization button
+thebelab_button_text: Run                 # The text to display inside the Thebelab initialization button
 codemirror_theme: abcdef                     # Theme for codemirror cells, for options see https://codemirror.net/doc/manual.html#config
 
 # nbinteract settings
