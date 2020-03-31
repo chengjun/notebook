@@ -1,6 +1,6 @@
 #!/bin/bash
 cd ..
-jupyter-book build notebook/
+jupyter-book build notebook/ --overwrite
 cd notebook
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
