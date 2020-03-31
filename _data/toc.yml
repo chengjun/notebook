@@ -24,7 +24,7 @@
 
 # Add a header and sample content section
 # chapter 1
-- title: 开始使用Jupyter notebook写博客
+- title: "开始使用Jupyter notebook写博客"
   url: index
   not_numbered: true
 - title: Inserting images into Jupyter Notebook
@@ -36,8 +36,6 @@
   # - title: Inserting images into Jupyter Notebook
   #   url: 20200321_jupyter_images
   #   not_numbered: true
-
-
 
 # Divider for meta-pages and content page
 - divider: true
