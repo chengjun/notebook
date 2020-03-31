@@ -23,7 +23,7 @@
 
 # Add a header and sample content section
 # chapter 1
-- title: Hello notebook
+- title: 开始使用Jupyter notebook写博客
   url: index
   not_numbered: true
 - title: Inserting images into Jupyter Notebook
