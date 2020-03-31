@@ -22,13 +22,15 @@
 # See the links below for an example.
 
 
-# Add a header and sample content section
+# Divider for meta-pages and content page
+- divider: true
+
 # chapter 1
-- title: "Chapter 1. 引言"
+- title: 1. Introduction
   url: /index
   not_numbered: true
   sections:
-  - title: Inserting images into Jupyter Notebook
+  - title: Inserting images
     url: /20200321_jupyter_images
     not_numbered: true
 
