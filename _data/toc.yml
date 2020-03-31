@@ -22,12 +22,9 @@
 # See the links below for an example.
 
 
-# Adds a searchbar link
-- title: Search
-  search: true
 
-# Divider for meta-pages and content page
-- divider: true
+
+
 
 # Add a header and sample content section
 - header: Computational Life
@@ -35,9 +32,18 @@
 # chapter 1
 - title: Hello notebook
   url: 20200320_hello_notebook
+  not_numbered: true
   sections:
-  - title: Understanding Big Data
+  - title: Inserting images into Jupyter Notebook
     url: 20200321_jupyter_images
+    not_numbered: true
+# Divider for meta-pages and content page
+- divider: true
+
+
+# Adds a searchbar link
+- title: Search
+  search: true
 
 # External link
 - header: Resources
