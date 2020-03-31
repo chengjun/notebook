@@ -26,13 +26,13 @@
 - divider: true
 
 # chapter 1
-- title: 1. Introduction
+- title: Introduction
   url: /index
-  not_numbered: true
+  #not_numbered: true
   sections:
   - title: Inserting images
     url: /20200321_jupyter_images
-    not_numbered: true
+    #not_numbered: true
 
 
   # sections:
